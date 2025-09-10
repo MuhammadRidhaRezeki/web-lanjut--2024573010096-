@@ -1,6 +1,6 @@
 # Laporan Modul 1: Perkenalan Laravel
 **Mata Kuliah:** Workshop Web Lanjut   
-**Nama:** Muhammad Ridha Rezeki
+**Nama:** Muhammad Ridha Rezeki  
 **NIM:** 2024573010096
 **Kelas:** TI 2B
 
@@ -10,6 +10,7 @@
 Laporan ini memperkenalkan framework Laravel sebagai kerangka kerja PHP modern yang memanfaatkan arsitektur MVC (Model–View–Controller). Laporan membahas pengertian, komponen utama, struktur folder, alur kerja MVC, serta kelebihan dan tantangan yang dihadapi pemula. Tujuan penyusunan laporan adalah memberikan pemahaman awal mengenai dasar-dasar Laravel sebelum mahasiswa melakukan praktik lanjutan dalam pengembangan aplikasi web.
 
 ## 1. Pendahuluan
+
 Laravel adalah framework PHP open-source yang membantu developer membangun aplikasi web dengan sintaks yang ekspresif, ringkas, dan elegan. Framework ini menggunakan arsitektur MVC sehingga logika aplikasi, tampilan, dan kontrol dipisahkan dengan jelas.
 
 >Karakteristik utama Laravel:
