@@ -7,34 +7,47 @@
 ---
 
 ## Abstrak 
-Tuliskan ringkasan singkat tentang isi laporan ini dan tujuan Anda membuat laporan.
-
+Laporan ini memperkenalkan framework Laravel sebagai kerangka kerja PHP modern yang memanfaatkan arsitektur MVC (Model–View–Controller). Laporan membahas pengertian, komponen utama, struktur folder, alur kerja MVC, serta kelebihan dan tantangan yang dihadapi pemula. Tujuan penyusunan laporan adalah memberikan pemahaman awal mengenai dasar-dasar Laravel sebelum mahasiswa melakukan praktik lanjutan dalam pengembangan aplikasi web.
 ---
 
 ## 1. Pendahuluan
-- Tuliskan teori perkenalan tentang laravel
-- Apa itu Laravel?
-- Karakteristik utama (MVC, opinionated, dsb.)
-- Untuk jenis aplikasi apa Laravel cocok?
+Laravel adalah framework PHP open-source yang membantu developer membangun aplikasi web dengan sintaks yang ekspresif, ringkas, dan elegan. Framework ini menggunakan arsitektur MVC sehingga logika aplikasi, tampilan, dan kontrol dipisahkan dengan jelas.
+
+Karakteristik utama Laravel:
+
+ -MVC Framework: memisahkan Model, View, dan Controller.
+
+ -Fitur lengkap (opinionated): menyediakan banyak fitur siap pakai seperti ORM, templating, migrasi, hingga sistem autentikasi.
+
+ -Produktivitas tinggi: developer dapat membuat aplikasi lebih cepat dengan kode yang terorganisasi.
+
+Laravel cocok untuk aplikasi CRUD, sistem informasi, e-commerce, hingga REST API.
 
 ---
 
 ## 2. Komponen Utama Laravel (ringkas)
-Tuliskan penjelasan singkat (1–3 kalimat) untuk tiap komponen berikut:
-- Blade (templating)
-- Eloquent (ORM)
-- Routing
-- Controllers
-- Migrations & Seeders
-- Artisan CLI
-- Testing (PHPUnit)
-(Tambahkan komponen lain jika ingin)
+
+ -Blade (Templating) → Mesin template untuk membuat tampilan dinamis.
+
+ -Eloquent (ORM) → Abstraksi database berbasis model yang mempermudah query.
+
+ -Routing → Menghubungkan URL dengan aksi atau controller.
+
+ -Controllers → Menampung logika aplikasi.
+
+ -Migrations & Seeders → Untuk mengelola struktur tabel dan mengisi data awal.
+
+ -Artisan CLI → Command line bawaan untuk membuat file, menjalankan migrasi, dll.
+
+ -Testing (PHPUnit) → Framework pengujian otomatis.
+
+ -Middleware → Filter request/response seperti autentikasi.
 
 ---
 
 ## 3. Berikan penjelasan untuk setiap folder dan files yang ada didalam struktur sebuah project laravel.
 
----
+
 
 ## 4. Diagram MVC dan Cara kerjanya
 
